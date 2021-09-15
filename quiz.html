@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navigation container">
+    </div>
+    <ul class="list-non-bullet nav-pills">
+
+        <li class="list-item-inline">
+            <a class="link" href="istriangle.html">Is Triangle</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link " href="hypotenuse.html">Hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link-active" href="quiz.html">Triangle Quiz</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link " href="area triangle.html">Triangle Area</a>
+        </li>
+    </ul>
+</nav> 
+
+    <h1 class="name">Triangle Quiz</h1>
+    <form class="quizform">
+        <div class="question-container">
+            <p>what do we call a triangle whose all sides are equal</p>
+            <label><input type="radio" name="question1" value="equilateral" />equilateral</label>
+            <label><input type="radio" name="question1" value="right-angle" />right-angle</label>
+            <label><input type="radio" name="question1" value="obtuse" />obtuse</label>
+        </div>
+        <div class="question-container">
+            <p>what do we call a triangle whose one side is 90 degrees</p>
+            <label><input type="radio" name="question2" value="acute" />acute</label>
+            <label><input type="radio" name="question2" value="obtuse" />obtuse</label>
+            <label><input type="radio" name="question2" value="right-angle" />right-angle</label>
+        </div>
+    </form>
+<button id="submit-answer-btn" class="button">submit answer</button>
+<div id="output"></div>
+<script src="quiz.js"></script>
+</body>
+</html>
